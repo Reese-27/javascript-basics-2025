@@ -10,6 +10,7 @@
 /* Body styles */
 /* Full viewport width and height, centered content */
 body {
+	background-color: rgb(215, 184, 154);
 	width: 100vw;
 	height: 100vh;
 	display: flex;
@@ -17,3 +18,4 @@ body {
 	justify-content: center;
 	align-items: center;
 }
+
