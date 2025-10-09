@@ -81,10 +81,10 @@ let colors = ["lightBlue", "lightGreen", "lightPink", "lightYellow", "seashellWh
 CTX.globalAlpha = 0.2;
 
 
-for ( let i = 0; i <= 1000; i++) {
+for ( let i = 0; i <= 100; i++) {
 	let color = colors[Math.floor(Math.random() * colors.length)]
     let box = new Box(0, 0, color);
-	box.alpha = 0.5;
+	box.alpha = 0.6;
 
 	box.width = 200;
 	box.height = 50;
@@ -93,6 +93,7 @@ for ( let i = 0; i <= 1000; i++) {
     box.speed = Math.random() *5 + 5;
     boxes.push(box);
 }
+
 
 /**
  * 
